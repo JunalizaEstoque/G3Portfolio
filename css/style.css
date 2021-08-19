@@ -11,7 +11,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5em;
     /* background-color: #141313; */
-    background: url("../image/wood.jpeg") no-repeat center center/      /*setting background picture in same place*/
+    background: url("../image/image-black.jpg") no-repeat center center/      /*setting background picture in same place*/
     cover;
     height: 657px;
 }
@@ -37,6 +37,12 @@ body{
     list-style: none;
     /* float: right; */
 }
+#navbar ul li a:hover {
+    color:rgb(201, 201, 74);
+}
+#navbar ul li a {
+    color: white;
+}
 
 /* MENU */
 .menu{
@@ -44,12 +50,6 @@ body{
     padding-left: 10px;
     margin-top: 30px;
 }
-/* a.menu{
-    color: #141313;
-}
-a.menu:hover{
-        color: gray;
-} */
 
 /* MENU1 */
 .menu1{
@@ -112,7 +112,7 @@ img{
     padding-left: 50px;
 }
 .primary-text {
-    color: rgb(24, 24, 23);
+    color: rgb(201, 201, 74);
     font-size: 130px;
 }
 .primary-text1 {
