@@ -19,33 +19,34 @@ a {
     height: 657px;
     width: 100px;
 }
+.line2  {
+    float: right;
+    background-color: rgb(201, 201, 74);
+    width: 15px;
+    height: 658px;
+    padding-top: 0;
+}
 
 /* MENU */
 .menu{
     height: 50px;
-    padding-left: 14px;
+    padding-left: 30px;
     margin-top: 30px;
 }
-/* a.menu{
-    color: #141313;
-}
-a.menu:hover{
-        color: gray;
-} */
 
 /* MENU1 */
 .menu1{
     margin-top: 150px;
-    padding-left: 14px;
+    padding-left: 30px;
 }
 
 .menu2{
     margin-top: 100px;
-    padding-left: 14px;
+    padding-left: 30px;
 }
 .menu3{
     margin-top: 100px;
-    padding-left: 14px;
+    padding-left: 30px;
 }
 #navbar a {
     color: #fff;
@@ -53,18 +54,15 @@ a.menu:hover{
 #navbar ul {
     list-style: none;
 }
-#navbar ul li a {
-    display: block;
-    padding: 20px;
-    float: left;
-}
 #navbar ul li a:hover {
-    background: black;
-    color: orange;
+    color:rgb(201, 201, 74);
+}
+#navbar ul li a {
+    color: white;
 }
 #hero {
     background: url("/image/image-black.jpg") no-repeat center center/ cover;
-    height: 950px;
+    height: 658px;
 }
 #hero {
     padding-top: 200px;
@@ -83,16 +81,16 @@ a.menu:hover{
 }
 img {
     float: right;
-    height: 800px;
-    width: 400px;
-    padding-right: 10px;
-    /* border-radius: 100px; */
+    height: 658px;
+    width: 350px;
+    margin-right: 0px;
 }
 footer {
     background: black;
     text-align: center;
-    /* overflow: auto; */
+    overflow: auto;
     display: block;
+    height: 50px;
 }
 #about {
     color: #fff;
@@ -109,7 +107,16 @@ footer {
     color: skyblue;
     font-size: 40px;
 }
-img{
-    float: right;
-    margin-right: 0px;
+.name{
+    font-size: 30px;
+    color: rgb(24, 24, 23);
+    background-color: rgb(201, 201, 74);
+    margin-top: 200px;
+    margin-left: 500px;
+    max-width: 800px;
+}
+.personal_icon a {
+    float: left;
+    padding-left: 15px;
+    color: white;
 }
