@@ -73,20 +73,38 @@ body{
 .landing{
     float: right;
     box-shadow: 5px;
+    padding-right: 0;
 }
 img{
     height: 658px;
     width: 550px;
+    margin-right: 0px;
 }
 
 /* yellow line */
 .line  {
-    background-color: rgb(24, 24, 23);
+    background-color: rgb(201, 201, 74);
     width: 1000px;
-    height: 10px;
+    height: 5px;
     margin-left: 50px;
     padding-top: 0;
 }
+.line2  {
+    float: right;
+    background-color: rgb(201, 201, 74);
+    width: 15px;
+    height: 658px;
+    padding-top: 0;
+}
+/* .line3_3  {
+    background-color: rgb(150, 150, 148);
+    background-color: color transparent;
+    width: 1000px;
+    height: 80px;
+    margin-left: 50px;
+    padding-top: 0;
+} */
+
 
 /* team text */
 .team{
