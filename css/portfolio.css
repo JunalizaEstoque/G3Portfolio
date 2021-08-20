@@ -66,21 +66,6 @@ a {
     overflow: visible;
 }
 
-/* #hero {
-    padding-top: 200px;
-    padding-left: 50px;
-    color: #fff;
-}
-#hero .hero-content h1 {
-    font-size: 30px;
-    }
-#hero .hero-content p {
-    font-size: 50px;
-    padding-top: 50px;
-}
-#hero .hero-content h2 {
-    padding-top: 20px;
-} */
 
 
 img {
@@ -129,14 +114,9 @@ footer {
     color:white;
 }
 
-
-/* about page */
-/* #about {
-    width: 100px;
-    background: none
-    height: 100px;
-} */
-
+#content .personal_icon a:hover{
+    color: rgb(201, 201, 74);;
+}
 .about{
     overflow: visible;
 }
