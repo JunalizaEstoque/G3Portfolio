@@ -104,8 +104,10 @@ footer {
     padding-left: 20px;
     padding-top: 15px;
     margin-top: 350px;
-    margin-left: 450px;
+    margin-left: 500px;
     height: 2.5em;
+    width: 400px;
+    text-align: center;
 
 }
 #content .personal_icon a {

@@ -16,10 +16,10 @@ body{
     height: 657px;
 }
 .overlay{
-    background: rgba(19, 20, 20, 0.4);
+    /* background: rgba(19, 20, 20, 0.4);
     overflow: opaciy;
     height: 657px;
-    z-index: 5;
+    z-index: 5; */
 }
     
 
@@ -206,6 +206,11 @@ a.c-btn{
 a.c-btn:hover{
     color:rgb(201, 201, 74);
 }
+
+
+
+
+
 
 
 
