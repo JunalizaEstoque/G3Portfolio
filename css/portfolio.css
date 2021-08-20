@@ -138,6 +138,7 @@ footer {
     margin-left: 30px;
     padding: 0px;
     height: 200px;
+    background-color: none;
 }
 .content-text h2, .content-text p{
     padding:10px;
