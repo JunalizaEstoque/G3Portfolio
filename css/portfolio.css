@@ -171,7 +171,7 @@ html{
     display: flex;
     flex-direction: row;
 }
-.level4 .menu1{
+/* .level4 .menu1{
     padding-right: 20px;
 }
 .level4 .menu2{
@@ -179,7 +179,7 @@ html{
 }
 .level4 .menu3{
     padding-right: 20px;
-}
+} */
 .level4 i{
     color: white;
     padding: 20px;
@@ -194,4 +194,44 @@ html{
     padding: 20px;
     text-align: center;
     margin-left: 90px;
+}
+.sub-education,
+.sub-skills,
+.sub-experiences,
+.sub-hobbies,
+.about,
+.menu1{
+    transition: 0.5s;
+}
+.about:hover{
+    transform: scale(1.1);
+    color: rgb(252, 252, 145);
+}
+.sub-education:hover{
+    transform: scale(1.1);
+    color: rgb(252, 252, 145);
+}
+.sub-skills:hover{
+    transform: scale(1.1);
+    color: rgb(252, 252, 145);
+}
+.sub-experiences:hover{
+    transform: scale(1.1);
+    color: rgb(252, 252, 145);
+}
+.sub-hobbies:hover{
+    transform: scale(1.1);
+    color: rgb(252, 252, 145);
+}
+
+.menu1:hover{
+    transform: scale(1.5);
+}
+
+.menu2:hover{
+    transform: scale(1.5);
+}
+
+.menu3:hover{
+    transform: scale(1.5);
 }
